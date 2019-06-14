@@ -1,5 +1,17 @@
-.body {
+.main {
 	display: block;
 	width: 50%;
 	margin: 0 auto;
+}
+
+#logo {
+
+}
+
+#searchbar {
+
+}
+
+#buttons {
+
 }
