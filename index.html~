@@ -5,6 +5,6 @@
 		<title>Fake Google</title>
 	</head>
 	<body>
-		<img src="/images/googlelogo_color.png" alt="Google">
+		<img id="logo" src="./images/googlelogo_color.png" alt="Google">
 	</body>
 </html>
