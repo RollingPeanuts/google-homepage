@@ -1,3 +1,7 @@
+a {
+	color: #222;
+}
+
 .main {
 	display: block;
 	width: 50%;
@@ -14,4 +18,22 @@
 
 #buttons {
 
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 16px;
+}
+
+.navbar .left-nav {
+	margin-left: 10px;
+}
+
+.navbar .right-nav {
+	margin-right: 30px;
+}
+
+.navbar a {
+	padding-left: 15px;
 }
