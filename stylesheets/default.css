@@ -37,3 +37,18 @@ a {
 .navbar a {
 	padding-left: 15px;
 }
+
+#google-apps::before {
+	content: "";
+	background-image: url("../images/google_apps_grey.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+#google-apps::before:hover {
+	opacity: 1;
+}
