@@ -1,5 +1,11 @@
 a {
 	color: #222;
+	opacity: 0.85;
+	text-decoration: none;
+}
+
+div {
+	font-family: arial, sans-serif;
 }
 
 .main {
@@ -40,15 +46,16 @@ a {
 
 #google-apps::before {
 	content: "";
-	background-image: url("../images/google_apps_grey.png");
+	background-image: url("../images/google_apps_black.png");
 	background-repeat: no-repeat;
 	display: inline-block;
 	background-size: 100% 100%;
 	width: 30px;
 	height: 30px;
 	vertical-align: middle;
+	opacity: 0.55;
 }
 
-#google-apps::before:hover {
+#google-apps:hover::before {
 	opacity: 1;
 }
