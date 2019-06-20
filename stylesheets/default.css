@@ -14,7 +14,7 @@ div {
 	margin: 0 auto;
 }
 
-#logo {
+#google-logo {
 
 }
 
@@ -22,25 +22,25 @@ div {
 
 }
 
-#buttons {
+.buttons {
 
 }
 
-.navbar {
+#navbar {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 16px;
 }
 
-.navbar .left-nav {
+#navbar #left-nav {
 	margin-left: 10px;
 }
 
-.navbar .right-nav {
+#navbar #right-nav {
 	margin-right: 30px;
 }
 
-.navbar a {
+#navbar a {
 	padding-left: 15px;
 }
 
