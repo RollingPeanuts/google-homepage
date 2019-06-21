@@ -9,15 +9,26 @@ div {
 	font-family: arial, sans-serif;
 }
 
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+html, body {
+	height: 100%;
+}
+
 .main {
 	display: block;
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
-	padding: 50px;
+	padding-top: 60px;
+	padding-bottom: 40px;
 }
 
 #google-logo {
+	transform: scale(0.8);
 }
 
 #searchbar {
