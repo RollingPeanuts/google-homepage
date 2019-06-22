@@ -10,8 +10,10 @@ div {
 }
 
 #container {
-	min-height: 100%;
 	position: relative;
+	margin: 0 auto;
+	min-height: 100%;
+	min-width: 1139px;
 }
 
 html, body {
@@ -20,19 +22,26 @@ html, body {
 
 .main {
 	display: block;
+	position: relative;
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 60px;
 	padding-bottom: 40px;
+	padding-top: 100px;
 }
 
 #google-logo {
+	display: inline-block;
 	transform: scale(0.8);
 }
 
 #searchbar {
-
+	margin: 0 auto;
+	height: 34px;
+	width: 600px;
+	border: 1px hsl(0, 0%, 92.9%) solid;
+	border-radius: 24px;
+	color: rgba(0, 0, 0, 0.87);
 }
 
 .button {
