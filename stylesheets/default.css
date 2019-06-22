@@ -20,7 +20,7 @@ html, body {
 	height: 100%;
 }
 
-.main {
+main {
 	display: block;
 	position: relative;
 	width: 50%;
@@ -37,11 +37,17 @@ html, body {
 
 #searchbar {
 	margin: 0 auto;
-	height: 34px;
-	width: 600px;
+	height: 50px;
+	overflow: auto;
+	
+}
+
+#main-search {
+	padding: 5px 8px 0 20px;
 	border: 1px hsl(0, 0%, 92.9%) solid;
 	border-radius: 24px;
-	color: rgba(0, 0, 0, 0.87);
+	width: 600px;
+	line-height: 40px;
 }
 
 .button {
@@ -70,20 +76,20 @@ html, body {
 	background-color: #4285f4;
 }
 
-.navigation {
+nav, footer {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 }
 
-#navbar {
+nav {
 	position: fixed;
 	margin-top: 16px;
 	min-width: 980px;
 }
 
-#footer {
+footer {
 	position: absolute;
 	bottom: 0;
 	height: 40px;
@@ -91,24 +97,24 @@ html, body {
 	min-width: 1139px;
 }
 
-#footer a {
+footer a {
 	padding-left: 27px;
 	font-size: 13px;
 }
 
-#footer #right-foot {
+footer #right-foot {
 	margin-right: 30px;
 }
 
-#navbar #left-nav {
+nav #left-nav {
 	margin-left: 10px;
 }
 
-#navbar #right-nav {
+nav #right-nav {
 	margin-right: 35px;
 }
 
-#navbar a {
+nav a {
 	padding-left: 15px;
 }
 
