@@ -1,12 +1,10 @@
-a {
-	font-size: 13px;
-	color: #222;
-	opacity: 0.85;
-	text-decoration: none;
-}
-
+/* Universal */
 div {
 	font-family: arial, sans-serif;
+}
+
+html, body {
+	height: 100%;
 }
 
 #container {
@@ -16,10 +14,8 @@ div {
 	min-width: 1139px;
 }
 
-html, body {
-	height: 100%;
-}
 
+/* Main Content/Search */
 main {
 	display: block;
 	position: relative;
@@ -28,13 +24,6 @@ main {
 	text-align: center;
 	padding-bottom: 40px;
 	padding-top: 120px;
-}
-
-#google-logo {
-	position: relative;
-	top: 30px;
-	display: inline-block;
-	transform: scale(0.5);
 }
 
 #search-area {
@@ -60,6 +49,65 @@ main {
 	border: none;
 }
 
+
+/* Nav Bar & Footer */
+nav, footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	position: fixed;
+	margin-top: 16px;
+	min-width: 980px;
+}
+
+nav #left-nav {
+	margin-left: 10px;
+}
+
+nav #right-nav {
+	margin-right: 35px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	background-color: #f2f2f2;
+	min-width: 1139px;
+}
+
+footer #right-foot {
+	margin-right: 30px;
+}
+
+
+/* Links */
+a {
+	font-size: 13px;
+	color: #222;
+	opacity: 0.85;
+	text-decoration: none;
+}
+
+nav a {
+	padding-left: 15px;
+}
+
+footer a {
+	padding-left: 27px;
+	font-size: 13px;
+}
+
+.text-link:hover {
+	text-decoration: underline;
+}
+
+
+/* Buttons */
 .button {
 	display: inline-block;
 	opacity: 1;
@@ -88,46 +136,13 @@ main {
 	background-color: #4285f4;
 }
 
-nav, footer {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	align-items: center;
-}
 
-nav {
-	position: fixed;
-	margin-top: 16px;
-	min-width: 980px;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
-	height: 40px;
-	background-color: #f2f2f2;
-	min-width: 1139px;
-}
-
-footer a {
-	padding-left: 27px;
-	font-size: 13px;
-}
-
-footer #right-foot {
-	margin-right: 30px;
-}
-
-nav #left-nav {
-	margin-left: 10px;
-}
-
-nav #right-nav {
-	margin-right: 35px;
-}
-
-nav a {
-	padding-left: 15px;
+/* Icons */
+#google-logo {
+	position: relative;
+	top: 30px;
+	display: inline-block;
+	transform: scale(0.5);
 }
 
 #google-apps::before {
@@ -145,10 +160,6 @@ nav a {
 
 #google-apps:hover::before {
 	opacity: 1;
-}
-
-.text-link:hover {
-	text-decoration: underline;
 }
 
 #voice-search {
