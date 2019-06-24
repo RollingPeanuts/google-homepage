@@ -42,6 +42,10 @@ main {
 	align-items: center;
 }
 
+#search-bar:hover {
+	box-shadow: 0 0 5px rgb(177, 177, 177);
+}
+
 #main-search {
 	padding: 5px 8px 0 20px;
 	width: 550px;
@@ -123,6 +127,16 @@ footer a {
 	padding: 0 16px;
 	line-height: 33px;
 	height: 40px;
+}
+
+#search-buttons .button:hover {
+	color: #222;
+	border-color: #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#search-buttons .button:focus {
+	border: 1px solid #4d90fe;
 }
 
 #right-nav .button {
